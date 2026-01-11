@@ -1,4 +1,4 @@
-# Fraud Detection: From Data Analytics to End-to-End ML Pipeline
+# CC-Fraud Detection: End-to-End ML Pipeline
 
 ## 📌 Project Overview
 
