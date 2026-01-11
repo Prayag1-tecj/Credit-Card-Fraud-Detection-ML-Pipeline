@@ -32,17 +32,29 @@ This led me to redesign the project with the goal of:
 ## 🏗️ System Architecture
 
 Data Ingestion
+
 ↓
+
 Data Preprocessing
+
 ↓
+
 Exploratory Data Analysis (EDA)
+
 ↓
+
 Model Training
+
 ↓
+
 Model Evaluation
+
 ↓
+
 Model Persistence
+
 ↓
+
 FastAPI Inference Service
 
 
@@ -140,22 +152,39 @@ Open in browser: http://127.0.0.1:8000/docs
 📂 Project Structure
 
 fraud-detection-ml-pipeline/
+
 │
+
 ├── data/
+
 ├── eda/
+
 ├── logs/
+
 ├── models/
+
 ├── src/
+
 │   ├── data_ingestion.py
+
 │   ├── preprocessing.py
+
 │   ├── eda.py
+
 │   ├── train.py
+
 │   └── evaluate.py
+
 │
+
 ├── app.py
+
 ├── run_pipeline.py
+
 ├── requirements.txt
+
 ├── Dockerfile
+
 └── README.md
 
 📈 What This Project Demonstrates
