@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/README.md
+
+# Models
+models/*.pkl
+
+# Logs
+logs/*
+
+# OS
+.DS_Store
+Thumbs.db
